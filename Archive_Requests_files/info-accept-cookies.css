@@ -1,0 +1,41 @@
+.modal-wrapper {
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}
+
+.modal__info {
+    width: 400px;
+    background-color: #4070F4;
+    color: #fff; 
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.modal__info p {
+    text-align: center;
+}
+
+.modal__info .buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal__info button {
+    color: #fff;
+    border-radius: 4px;
+    width: calc(100% / 4 - 10px);
+    background-color: #2AD29A;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.modal__info button:hover {
+    background-color: #28c38f;
+}
